@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Ranga|Shadows+Into+Light&display=swap');
+
+body{
+  margin: 5% 10%;
+  display: block;
+  height: 100%;
+  padding: 0px;
+}
+
+form{
+       padding:1%;
+    }
+
+    button{
+        margin-left:7%;
+    }
+#header{
+  background-image: url(https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F69811481%2F217481859483%2F1%2Foriginal.20190825-115006?w=800&auto=compress&rect=0%2C18%2C720%2C360&s=4845536db716b91a87427e81b7c29f74);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px;
+  border: 10px solid #0077Be;
+  border-radius: 12px 12px 12px 12px;
+
+
+}
+#headtitle{
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Ranga', cursive;
+  font-size: 4em;
+
+}
+#title{
+  font-family: 'Ranga', cursive;
+  border-bottom: 12px solid #0077Be;
+  border-bottom-right-radius: 12px;
+  padding: 5px;
+  display:inline-block;
+}
+#footer{
+  background-image: url(https://www.ocregister.com/wp-content/uploads/migration/o86/o86g1m-coastalcleanup.jpg?w=620);
+  background-size:contain;
+  background-attachment: fixed;
+  border: 10px solid #0077Be;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: normal;
+  font-size: 2.0em;
+  font-family: 'Ranga', cursive;
+  text-align: center;
+  clear: both;
+}
+#nav{
+  text-align: right;
+}
+#pic{
+  float: right;
+  clear: both;
+  text-align: center;
+  display: inline-block;
+  border: 2px;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+#about{
+  display: contents;
+  border: 2px;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 3px;
+}
+#sign{
+  text-align: center;
+  display: block;
+  padding-bottom: 50px;
+}
+li{
+  list-style: none;
+  font-family: 'Shadows Into Light', cursive;
+   font-family: 'Ranga', cursive;
+   font-size: 3em;
+   display: inline-table;
+   font-weight: 900;
+   margin-right: 50px;
+}
+
+.error{
+    color:red;
+    font-weight:bold;
+    font-size:1em;
+}
+
+.success{
+    color:#0077Be;
+    font-weight:bold;
+    font-size:1em;
+}
